@@ -4,3 +4,16 @@ node_modules
 *.db-journal
 .DS_Store
 .DS_Store
+# Environment variables and private keys
+.env
+.env.*
+!.env.example
+
+# Never expose wallet credentials
+public/.env
+
+# Dependencies
+node_modules/
+
+# Local verification script
+public/check-wallets.js
