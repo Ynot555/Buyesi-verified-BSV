@@ -1,0 +1,16 @@
+[Unit]
+Description=Buyesi Youth Verified
+After=network.target
+
+[Service]
+Type=simple
+User=buyesi
+WorkingDirectory=/home/buyesi/app
+EnvironmentFile=/home/buyesi/app/.env
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

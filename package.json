@@ -25,5 +25,11 @@
     "@types/qrcode": "^1.5.6",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
+  },
+  "description": "Verifiable certificates for Buyesi Youth Initiative, anchored on BSV",
+  "author": "Buyesi Youth Initiative",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13"
   }
 }
